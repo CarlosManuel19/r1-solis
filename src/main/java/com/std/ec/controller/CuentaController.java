@@ -81,7 +81,7 @@ public class CuentaController {
                                 .nombreCliente(cuentaDto.getNombreCliente())
                                 .numeroCuenta(cuentaDto.getNumeroCuenta())
                                 .saldo(cuentaDto.getSaldo())
-                                .saldo(cuentaDto.getSaldo())
+                                .estado(cuentaDto.isEstado())
                                 .build())
                         .build()
                         , HttpStatus.CREATED);
