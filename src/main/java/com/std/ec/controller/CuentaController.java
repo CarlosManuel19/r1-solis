@@ -53,7 +53,7 @@ public class CuentaController {
                             .nombreCliente(cuentaSave.getNombreCliente())
                             .numeroCuenta(cuentaSave.getNumeroCuenta())
                             .saldo(cuentaSave.getSaldo())
-                            .estado(cuentaSave.get)
+                            .estado(cuentaSave.isEstado())
                             .build())
                     .build()
                     , HttpStatus.CREATED);
@@ -141,7 +141,7 @@ public class CuentaController {
                                 .nombreCliente(cuenta.getNombreCliente())
                                 .numeroCuenta(cuenta.getNumeroCuenta())
                                 .saldo(cuenta.getSaldo())
-                                .saldo(cuenta.getSaldo())
+                                .estado(cuenta.isEstado())
                                 .build())
                         .build()
                 , HttpStatus.OK);
