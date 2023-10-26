@@ -43,6 +43,7 @@ Edita el archivo application.properties con tus credenciales de MySQL
 
 4. Desactivar una cuenta
    DELETE http://localhost:8080/api/v1/accounts/{id}
+![img_3.png](img_3.png)
 
 
 
