@@ -28,22 +28,22 @@ Edita el archivo application.properties con tus credenciales de MySQL
 
 1. Mostrar cuentas
    GET http://localhost:8080/api/v1/accounts
-![img_1.png](img_1.png)
+![img_1.png](img/img_1.png)
 
 2. Crear una nueva cuenta
    POST http://localhost:8080/api/v1/accounts
 
-![img_2.png](img_2.png)
+![img_2.png](img/img_2.png)
 
 3. Actualizar una cuenta
    PUT http://localhost:8080/api/v1/accounts/7
 
-![img.png](img.png)
+![img.png](img/img.png)
    
 
 4. Desactivar una cuenta
    DELETE http://localhost:8080/api/v1/accounts/{id}
-![img_3.png](img_3.png)
+![img_3.png](img/img_3.png)
 
 
 
