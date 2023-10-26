@@ -14,19 +14,19 @@ import java.io.Serializable;
 public class Cuenta implements Serializable {
 
     @Id
-    @Column(name = "id_cuenta") // Cambia el nombre de la columna a "id_cuenta"
+    @Column(name = "id_cuenta")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer idCuenta; // Cambia el nombre del atributo
+    private Integer idCuenta;
 
-    @Column(name = "nombre_cliente") // Nuevo atributo para el nombre del cliente
+    @Column(name = "nombre_cliente")
     private String nombreCliente;
 
-    @Column(name = "numero_cuenta") // Nuevo atributo para el número de cuenta
+    @Column(name = "numero_cuenta")
     private String numeroCuenta;
 
-    @Column(name = "saldo") // Nuevo atributo para el saldo de la cuenta
+    @Column(name = "saldo")
     private double saldo;
 
-    @Column(name = "estado") // Nuevo atributo para el estado de la cuenta
+    @Column(name = "estado")
     private boolean estado;
 }
